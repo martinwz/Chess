@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/container"
+      android:background="@color/bg_gray"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.90" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray" />
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom"
+        android:background="#fafafa"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_weight="0.28"
+            android:checked="false"
+            style="@style/RadioButtonBottomTab"
+             android:drawableTop="@drawable/home1"
+            android:text="游戏列表" />
+        <RadioButton
+            android:id="@+id/rb_meassage"
+            style="@style/RadioButtonBottomTab"
+             android:drawableTop="@drawable/recordlist"
+            android:layout_weight="0.23"
+            android:text="背景音乐" />
+    </RadioGroup>
+</LinearLayout>

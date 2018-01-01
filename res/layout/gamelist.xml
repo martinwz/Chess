@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_weight="1.34" >
+        <ImageButton
+            android:id="@+id/gamelist_ib_pvsc"
+            style="@style/RadioButtonBottomTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#27aae1"
+            android:src="@drawable/pvsc" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13" >
+        <TextView
+            android:id="@+id/gamelist_tv_pvsc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#27aae1"
+            android:gravity="center"
+            android:text=" 人机对战"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_weight="1.15" >
+        <ImageButton
+            android:id="@+id/igamelist_ib_pvsp"
+            style="@style/RadioButtonBottomTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#bf1e2d"
+            android:src="@drawable/pvsp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/gamelist_tv_pvsp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#bf1e2d"
+            android:gravity="center"
+            android:text=" 玩家对战"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chess.Game" >
+      <item
+        android:id="@+id/game_bf"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="上一首"/>
+        <item
+        android:id="@+id/game_nt"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="下一首"/>
+    <item
+        android:id="@+id/game_stop"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="停止音乐"/>
+    <item
+        android:id="@+id/game_again"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="重新开始"/>
+</menu>
